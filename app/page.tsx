@@ -222,7 +222,7 @@ useEffect(() => {
                       if(confirm("削除しますか？")){
                         deletePayment(p.id)
                       }
-                    }}
+                    }} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded" 
                   >
                   削除
                   </button>
@@ -266,7 +266,7 @@ useEffect(() => {
           <thead className="bg-gray-100">
             <tr>
               <th className="p-2">日付</th>
-              <th className="p-2">カテゴリ</th>
+              <th className="p-2">内容</th>
               <th className="p-2">支払者</th>
               <th className="p-2">金額</th>
               <th className="p-2">請求方法</th>
